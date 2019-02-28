@@ -181,10 +181,12 @@ public class Method {
 	public String toString() {
 		return  ID + ", methodname=" + methodname 
 				 
-				//			+	", requirementsGold="
-				//				+ requirementsGold.toString() + 
+//							+	", requirementsGold="
+//								+ requirementsGold.toString() + 
 //				+Owner.toString()+"]"
-//				+"[ ClassID"+Owner.ID+"  ClassName "+Owner.classname +" ]"
+				+"[ClassID "+Owner.ID
+//				+"  ClassName "+Owner.classname 
+				+"]"
 				;
 	}
 	//////////////////////////////////////////////////////////////////////////////////

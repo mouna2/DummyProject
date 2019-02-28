@@ -55,9 +55,9 @@ import mypackage.Requirement;
 
 
 public class AlgoFinal extends JFrame {
-	public static boolean InheritanceFlag=false; 
-	public static boolean InterfaceImplementationFlag=false; 
-	public static boolean InheritanceRecursion=false; 
+	public static boolean InheritanceFlag=true; 
+	public static boolean InterfaceImplementationFlag=true; 
+	public static boolean InheritanceRecursion=true; 
 
 	
 	public static boolean RecursiveCallFlag=false; 
